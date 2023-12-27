@@ -1,0 +1,1 @@
+# result-marathon5tasks-05-aim-game
