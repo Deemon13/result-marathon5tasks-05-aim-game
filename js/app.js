@@ -109,3 +109,17 @@ function createRandomCircle() {
 function getRandomNumber(min, max) {
   return Math.round(Math.random() * (max - min) + min);
 }
+
+// God mode
+
+function winTheGame(time) {
+  function kill() {
+    const circle = document.querySelector(".circle");
+
+    if (circle) {
+      circle.click();
+    }
+  }
+
+  setInterval(kill, time);
+}
